@@ -1,0 +1,101 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+.card-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--Very-Dark-Cyan);
+}
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--Very-Dark-Cyan);
+}
+.img-small{
+    max-width: 50px;
+}
+.btn-body{
+    background-color: var(--Pink);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--Very-Pale-Blue);
+    height: 75px;
+    width: 400px;
+}
+.btn-header{
+    color: var(--Pink);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    border-color:var(--Pink);
+    width: 150px;
+}
+.btn-footer{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: var(--Pink);
+    color: var(--Very-Pale-Blue);
+}
+.footer-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--Very-Pale-Blue);
+}
+.fa-brands{
+    filter: brightness(0) invert(1);
+}
+#background-top-1{
+    background-image: url("bg-section-top-desktop-1.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#background-center-1{
+    background-color: #F6FBFF;
+}
+#background-bootom-1{
+    background-image: url("bg-section-bottom-desktop-1.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#background-top-2{
+    background-image: url("bg-section-top-desktop-2.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#background-center-2{
+    background-color: #F6FBFF;
+}
+#background-bootom-2{
+    background-image: url("bg-section-bottom-desktop-2.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+#background-footer-top{
+    background-image: url("bg-footer-top-desktop.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+#background-footer-center{
+    background-color: #00252E;
+}
+
+
+
